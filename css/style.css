@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 100%;
+}
+
+div, section, span, ul, li, a, header {
+  box-sizing: border-box;
+}
+
+/*css HOME*/
+
+#home {
+  background-color: #b3ccff;
+  display: block;
+  align-items: center !important;
+  width: 100%;
+  height: 100vh;
+  background-position: center; 
+  background-size: cover;
+}
+
+#header-index {
+  width: 100%;
+  text-align: center !important;
+  padding-top: 60px;
+}
+
+.topnav {
+  overflow: hidden;
+  padding-left: 0px !important;
+}
+
+.topnav a {
+  display: inline;
+  text-align: center;
+  color: #003366;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Source Serif Pro', serif;
+  padding: 42px;
+}
+
+.topnav a:hover {
+  color: #b38600;
+}
+
+.topnav a.active {
+  text-decoration: underline;
+  color: #003366;
+}
+
+.topnav .icon {
+  display: none;
+  color: #b38600;
+  font-size: 35px;
+}
+
+.main-index {
+  width: 100%;
+  text-align: center !important;
+  padding-top: 20px;
+}
+
+#titolo {
+  font-size: 80px;
+  font-family: 'DM Serif Text', serif;;
+  color: #cc0000;
+  text-shadow: 2px 1px #800000;
+}
+
+.logopiccolo {
+  display: inline-block; 
+  margin-top:30px; 
+  width: 100px; 
+  height: 100px; 
+  margin: 30px;
+}
+
+.logogrande {
+  display: inline-block; 
+  margin-top:10px; 
+  width: 150px; 
+  height: 150px; 
+  margin: 30px;
+}
+
+/*css SOCIETA'*/
+
+#società {
+  background-color: #99bbff;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.titolo2, .titolo3 {
+  font-size: 42px;
+  font-family: 'DM Serif Text', serif;
+  position: absolute;
+  float: left;
+  margin-left: 70px;
+  margin-top: 20px;
+  color: #cc0000;
+  text-shadow: 1.5px 0 #800000;
+}
+
+.link:hover {
+  color: #999900;
+}
+
+.active {
+  text-decoration: underline !important;
+}
+
+.active:hover {
+  color: #003366;
+}
+
+nav {
+  float: right;
+  margin: 20px 50px 0 0;
+}
+
+nav ul {
+  padding-left: 0px !important;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+nav ul li a {
+  color: #003366;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Source Serif Pro', serif;
+  padding: 20px;
+  text-shadow: 0 0 !important;
+}
+
+.p25top {
+  margin-top: 25px;
+}
+
+/*css ALLENAMENTI*/
+
+#attività{
+  background-color: #b3ccff;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#p-20top {
+  margin-top: -20px;
+}
+
+/*css GARE*/
+
+#gare {
+  background-color: #99bbff;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.testo {
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 125px;
+  margin-left: 70px !important;
+  width: 45%;
+  float: left !important;
+  color: black;
+  text-align: justify;
+}
+
+p {
+  font-size: 18px;
+}
+
+.p25bottom {
+  margin-bottom: 25px;
+}
+
+span{
+  color: black;
+  font-weight: 700 !important;
+  font-size: 18px;
+  font-family: 'Source Serif Pro', serif;
+  text-decoration: underline;
+}
+
+.link-esterno {
+  color: #0066cc;
+  font-weight: 700;
+}
+
+.link-esterno:hover {
+  color: #003366;
+}
+
+.foto {
+  height: 460px;
+  width: 460px;
+  float: right !important;
+  margin-right: 80px;
+  padding-top: 0px !important;
+}
+
+/*css CONTATTI*/
+
+#contatti {
+  background-color: #b3ccff;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.p30paddingr {
+  padding-right: 30px;
+}
+
+#p65top {
+  margin-top: 65px;
+}
+
+iframe {
+  height: 220px;
+  width: 45%;
+  padding-left: 50px !important;
+}
+
+/*css FOOTER*/
+
+footer {
+  width: 100%;
+  height: 20%;
+  font-family: 'Source Serif Pro', serif; 
+  align-items: center;
+  text-align: center;
+  background-color: #191970; 
+}
+
+.copy {
+  color: white;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+.copy2 {
+  padding-bottom: 10px !important;
+  margin-bottom: 0px !important;
+  font-size: 12px;
+  color: white;
+}
+
+.different {
+  color: white;
+  text-decoration: none;
+}
+
+.different:hover {
+  color: #ccad00
+}
+
+
+
+
+
+
+
+
+
+/*css RESPONSIVE*/
+
+@media only screen and (max-width: 780px) {
+
+  /*css HOME RESPONSIVE*/
+
+#home {
+width: 100%;
+height: 100vh;
+background-position: 25% 75%;
+}
+
+#header-index {
+  padding-top: 7px;
+}
+
+.main-index {
+  padding-top: 0px;
+}
+
+#titolo {
+  font-size: 50px;
+  text-shadow: 1px 1px #800000;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  margin-right: 0px;
+}
+
+div {
+  margin-right: 0px;
+  margin-top: 40px;
+}
+
+.logopiccolo {
+  width: 70px; 
+  height: 70px;
+  margin: 5px;
+}
+
+.logogrande {
+  width: 100px; 
+  height: 100px; 
+  margin: 5px;
+}
+
+.topnav a {display: none;}
+  .topnav a.icon {
+    display: inline-block;
+    margin: 10px auto 5px;
+    padding: 5px; 
+    position: relative;
+  }
+  #myTopnav {
+    margin-right: 0px;
+  }
+
+.topnav.responsive
+  .topnav.responsive a.icon {
+    position: static;
+    color: #003366;
+  }
+  i.fa.fa-bars::before {
+    color: #003366;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    padding: 32px;
+  }
+  .topnav.responsive a:hover {
+    color: #003366;
+    text-decoration: underline;
+  }
+
+/*css SOCIETA' RESPONSIVE*/
+
+#società {
+  width: 100%;
+  height: 160vh;
+}
+
+.titolo2{
+  font-size: 30px !important;
+  float: none !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  text-align: center !important;
+}
+
+nav {
+  float: none;
+  margin: 0px;
+  padding-top: 100px !important;
+  text-align: center;
+  padding-left: 3px !important;
+  padding-bottom: 0px;
+}
+
+nav ul li a {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.p25top {
+  margin-top: 15px;
+}
+
+.foto {
+  height: 280px;
+  width: 280px;
+  float: none !important;
+  margin: 10px 40px !important;
+  padding-top: 0px !important;
+}
+
+.testo {
+  padding: 0px 40px 0px;
+  margin-left: 0px !important;
+  width: 100%;
+  float: none !important;
+  text-align: justify;
+  margin-top: 0px;
+}
+
+p {
+  font-size: 15px;
+}
+
+span{
+  font-size: 17px;
+}
+
+/*css ALLENAMENTI RESPONSIVE*/
+
+#attività{
+  width: 100%;
+  height: 175vh;
+}
+
+.titolo3 {
+  font-size: 35px !important;
+  float: none !important;
+  margin-right: 0px !important;
+  margin-left: 13px !important;
+  text-align: center !important;
+  }
+
+#p-20top {
+  margin-top: -10px;
+}
+
+}
