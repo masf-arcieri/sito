@@ -312,7 +312,7 @@ background-position: 25% 75%;
   text-shadow: 1px 1px #800000;
   margin-top: 10px;
   margin-bottom: 25px;
-  margin-right: 0px;
+  margin-right: 0px !important;
 }
 
 div {
@@ -335,7 +335,7 @@ div {
 .topnav a {display: none;}
   .topnav a.icon {
     display: inline-block;
-    margin: 10px auto 5px !important;
+    margin: 2px auto 13px !important;
     padding-bottom: 15px !important; 
     position: relative;
   }
@@ -409,7 +409,7 @@ nav ul li a {
 }
 
 .testo {
-  padding: 0px 30px 0px;
+  padding: 0px 35px;
   margin-left: 0px !important;
   width: 100%;
   float: none !important;
@@ -483,5 +483,5 @@ iframe {
   height: 150px;
   width: 300px;
   margin-top: 5px;
-  margin-left: 32px;
+  margin-left: 33px;
 }
