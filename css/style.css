@@ -18,7 +18,6 @@ div, section, span, ul, li, a, header {
 }
 
 /*css HOME*/
-
 #home {
   background-color: #b3ccff;
   display: block;
@@ -289,7 +288,7 @@ footer {
 
 /*css RESPONSIVE*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:320px) {
 
   /*css HOME RESPONSIVE*/
 
@@ -487,7 +486,7 @@ iframe {
 }
 }
 
-@media only screen and (max-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width:321px) and (max-width:768px) {
     /*css HOME RESPONSIVE*/
 
 #home {
