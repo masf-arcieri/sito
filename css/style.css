@@ -401,8 +401,8 @@ nav ul li a {
 }
 
 .foto {
-  height: 250px;
-  width: 250px;
+  height: 240px;
+  width: 240px;
   float: none !important;
   margin: 10px 55px; !important;
   padding-top: 0px !important;
@@ -465,7 +465,7 @@ height: 100vh;
   height: 290px;
   width: 290px;
   float: none !important;
-  margin: 30px 35px !important;
+  margin: 25px 35px !important;
   padding-top: 0px !important;
 }
 
@@ -480,7 +480,7 @@ height: 100vh;
 }
 
 iframe {
-  height: 200px;
+  height: 170px;
   width: 300px;
   margin-top: 5px;
   margin-left: 30px;
