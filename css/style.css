@@ -335,8 +335,8 @@ div {
 .topnav a {display: none;}
   .topnav a.icon {
     display: inline-block;
-    margin: 10px auto 5px;
-    padding: 5px; 
+    margin: 10px auto 5px !important;
+    padding: 5px !important; 
     position: relative;
   }
   #myTopnav {
