@@ -487,8 +487,8 @@ iframe {
 }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024) {
-    /*css HOME RESPONSIVE*/
+/* @media only screen and (min-width: 768px) and (max-width: 1024) {
+    /*css HOME RESPONSIVE
 
 #home {
 width: 100vw;
@@ -562,7 +562,7 @@ div {
     text-decoration: underline;
   }
 
-/*css SOCIETA' RESPONSIVE*/
+/*css SOCIETA' RESPONSIVE
 
 #società {
 width: 100vw;
@@ -625,7 +625,7 @@ span{
   font-size: 22.5px;
 }
 
-/*css ALLENAMENTI RESPONSIVE*/
+/*css ALLENAMENTI RESPONSIVE
 
 #attività{
 width: 100vw;
@@ -647,7 +647,7 @@ height: 100vh;
   margin-bottom: 0px;
 }
 
-/*css GARE RESPONSIVE*/
+/*css GARE RESPONSIVE
 #gare {
 width: 100vw;
 height: 100vh;
@@ -668,7 +668,7 @@ height: 100vh;
   padding-top: 0px !important;
 }
 
-/*css CONTATTI RESPONSIVE*/
+/*css CONTATTI RESPONSIVE
 #contatti {
 width: 100vw;
 height: 100vh;
@@ -685,7 +685,7 @@ iframe {
   margin-left: 55px;
 }
 
-/*css FOOTER RESPONSIVE*/
+/*css FOOTER RESPONSIVE
 
 footer {
   width: 100%;
@@ -719,4 +719,4 @@ footer {
   color: #ccad00
 }
 
-} 
+}*/ 
