@@ -23,9 +23,7 @@ div, section, span, ul, li, a, header {
   background-color: #b3ccff;
   display: block;
   align-items: center !important;
-  width: 100vw;
-  height: 100vh;
-  background-position: center; 
+  height: 100vh; 
   background-size: cover;
 }
 
@@ -99,7 +97,6 @@ div, section, span, ul, li, a, header {
 
 #società {
   background-color: #99bbff;
-  width: 100vw;
   height: 100vh;
   position: relative;
 }
@@ -160,7 +157,6 @@ nav ul li a {
 
 #attività{
   background-color: #b3ccff;
-  width: 100vw;
   height: 100vh;
   position: relative;
 }
@@ -173,7 +169,6 @@ nav ul li a {
 
 #gare {
   background-color: #99bbff;
-  width: 100vw;
   height: 100vh;
   position: relative;
 }
@@ -225,7 +220,6 @@ span{
 
 #contatti {
   background-color: #b3ccff;
-  width: 100vw;
   height: 100vh;
   position: relative;
 }
@@ -289,12 +283,11 @@ footer {
 
 /*css RESPONSIVE*/
 
-@media screen and (min-width: 300px;) and (max-width: 600px) {
+@media screen and (max-width: 764px) {
 
   /*css HOME RESPONSIVE*/
 
 #home {
-width: 100vw;
 height: 100vh;
 background-position: 25% 75%;
 }
@@ -308,16 +301,17 @@ background-position: 25% 75%;
 }
 
 #titolo {
-  font-size: 50px;
+  font-size: 55px;
   text-shadow: 1px 1px #800000;
-  margin-top: 10px;
   margin-bottom: 25px;
-  margin-right: 0px !important;
+  margin-right: 5% !important;
+  margin-left: 5% !important;
+  margin-top: 55px;
 }
 
 div {
-  margin-right: 0px;
-  margin-top: 40px;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .logopiccolo {
@@ -332,25 +326,29 @@ div {
   margin: 5px;
 }
 
-.topnav a {display: none;}
+.topnav a {
+  display: none;
+}
+
   .topnav a.icon {
     display: inline-block;
     margin: 2px auto 13px !important;
     padding-bottom: 15px !important; 
     position: relative;
   }
-  #myTopnav {
-    margin-right: 0px;
-  }
 
 .topnav.responsive
   .topnav.responsive a.icon {
     position: static;
     color: #003366;
+    padding-bottom: 5% !important;
+    margin-bottom: 5% !important;
+    margin-top: 30px !important; 
   }
   i.fa.fa-bars::before {
     color: #003366;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
@@ -366,28 +364,28 @@ div {
 /*css SOCIETA' RESPONSIVE*/
 
 #società {
-width: 100vw;
 height: 120vh !important;
 }
 
 .titolo2{
   font-size: 27px !important;
-  float: none !important;
-  margin-left: 17px !important;
-  text-align: center !important;
+  float: none!important; 
+  text-align: center !important; 
+  margin: 20px 20% 8px;
 }
 
 nav {
-  float: none;
+  float: none !important;
   margin: 0px;
-  padding-top: 55px !important;
-  text-align: center;
-  padding-left: 0px !important;
+  padding-top: 55px!important;
+  text-align: center !important;
   padding-bottom: 0px;
 }
 
 nav ul {
-  margin: 0px auto !important;
+  margin-right: 5% !important;
+  margin-left: 5% !important;
+  margin-bottom: 0px !important;
 }
 
 nav ul li a {
@@ -404,14 +402,15 @@ nav ul li a {
   height: 210px;
   width: 210px;
   float: none !important;
-  margin: 10px 75px; !important;
+  margin: 10px auto !important;
   padding-top: 0px !important;
 }
 
 .testo {
-  padding: 0px 35px;
-  margin-left: 0px !important;
-  width: 100%;
+  padding: 0px !important;
+  margin-left: 5% !important;
+  margin-right: 5px;
+  width: 90%;
   float: none !important;
   text-align: justify;
   margin-top: 0px;
@@ -429,15 +428,16 @@ span{
 /*css ALLENAMENTI RESPONSIVE*/
 
 #attività{
-width: 100vw;
 height: 120vh;
 }
 
 .titolo3{
   font-size: 27px !important;
-  float: none !important;
-  margin-left: 55px !important;
-  text-align: center !important;
+  float: none!important; 
+  text-align: center !important; 
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-left: 25%;
   }
 
 #p-20top {
@@ -450,7 +450,6 @@ height: 120vh;
 
 /*css GARE RESPONSIVE*/
 #gare {
-width: 100vw;
 height: 100vh;
 }
 
@@ -471,7 +470,6 @@ height: 100vh;
 
 /*css CONTATTI RESPONSIVE*/
 #contatti {
-width: 100vw;
 height: 100vh;
 }
 
@@ -604,7 +602,7 @@ nav ul li a {
   height: 420px;
   width: 420px;
   float: none !important;
-  margin: 10px 175px; !important;
+  margin: 10px 175px !important;
   padding-top: 0px !important;
 }
 
